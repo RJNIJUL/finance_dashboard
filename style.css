@@ -1,0 +1,113 @@
+/* ================= GLOBAL ================= */
+body {
+    background: #f5f7fb;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+    height: 100vh;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h4 {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    margin: 12px 0;
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: white;
+    transform: translateX(5px);
+}
+
+/* ================= CARDS ================= */
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+/* ================= PROFILE IMAGE ================= */
+.profile-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+    border-radius: 8px;
+}
+
+/* ================= TABLE ================= */
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+/* ================= ACTIVITY ================= */
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+
+/* ================= DARK MODE ================= */
+.dark-mode {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+}
+
+/* Cards */
+.dark-mode .card {
+    background: #1e293b;
+    color: #e2e8f0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar */
+.dark-mode .sidebar {
+    background: #020617;
+}
+
+/* Table */
+.dark-mode .table {
+    color: #e2e8f0;
+}
+
+.dark-mode .table thead {
+    color: #94a3b8;
+}
+
+/* Inputs */
+.dark-mode input,
+.dark-mode select {
+    background: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+}
+
+/* Activity list */
+.dark-mode .list-group-item {
+    background: transparent;
+    color: #e2e8f0;
+    border-bottom: 1px solid #334155;
+}
+
+/* ================= SMOOTH TRANSITION ================= */
+body,
+.card,
+.sidebar,
+.table,
+input,
+select {
+    transition: all 0.35s ease-in-out;
+}
